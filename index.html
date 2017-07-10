@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper">
+	
+	<div class="header">
+		<h1>Hangman</h1>
+		<img class="puck" width=100 src="assets/images/hockeypuck.png">
+		<h2>Hockey Edition</h2>
+	</div>
+
+	<div class="mainbody">
+		<div class="imagebody">
+			<img id="leftimage" width=300 src="assets/images/hockeystartimg.jpg">
+		</div>
+		<div class="hangbody">
+			<p>Press any key to get started!</p>
+			<p>Wins</p> 
+			<p id="wins"></p>
+			<p>Current Word</p>
+			<p id="currentword"></p>
+			<p>Number of guesses remaining</p>
+			<p id="guessnumber"></p>
+			<p>Letters already guessed</p>
+			<p id="guesses"></p>
+		</div>
+	</div>
+	
+</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
